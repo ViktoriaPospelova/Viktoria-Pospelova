@@ -1,4 +1,6 @@
 #6.	Создать множество из 5 разных чисел, затем добавить в него новое число и вывести на экран
-a=[1,2,3,4,5]
-a.append(6)
-print(a)
+spis = []
+for i in range(5):
+    print('Vvedite ', i+1, ' element')
+    spis.append(input())
+print(spis)
